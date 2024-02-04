@@ -19,9 +19,7 @@
       <div class="logo">
         <p>Vikas</p>
       </div>
-      <div class="menu">
-        <i class="fa-solid fa-bars"></i>
-      </div>
+    
       <div class="navbar">
         <ul>
           <li><a href="#home">Home</a></li>
@@ -30,6 +28,18 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
+      <!-- MOBILE -->
+      <div class="menu">
+        <i class="ri-menu-3-line" id="menuBtn" onclick="show()"></i>
+      </div>
+      <nav id="sidenav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
     <!-- HERO SECTION  -->
     <div class="hero-section">
@@ -62,7 +72,7 @@
       <h1>About me</h1>
       <div class="right-left-about">
         <div class="about">
-          <p> I am a passionate web developer with expertise in HTML, CSS, and JavaScript. I love creating dynamic and
+          <p class="brief"> I am a passionate web developer with expertise in HTML, CSS, and JavaScript. I love creating dynamic and
             interactive websites that provide a great user experience.
           </p>
           <!-- SKILL BOX  -->
@@ -190,5 +200,5 @@
     window.scrollTo(0, 0)
   }
 </script>
-
+<script src="js/menu.js"></script>
 </html>

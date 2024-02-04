@@ -2,9 +2,53 @@
   .navbar {
     display: none;
   }
+  .logo {
+    margin: 4vw;
+  }
+  .logo p {
+    font-size: 5vw;
+  }
+
   .menu {
     display: initial;
+    margin: 4vw;
+    font-size: 6vw;
+    position: fixed;
+    z-index: 3;
+
   }
+  /* MOBILE MENU  */
+  #sidenav {
+    display: initial;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    background-color: black;
+    z-index: 2;
+    transition: 1s;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    margin: 10vw 4vw;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: not-allowed;
+  }
+  #menuBtn {
+    display: initial;
+    position: fixed;
+    right: 2vw;
+    top: 0;
+    z-index: 2;
+    margin-top: 3vw;
+    font-size: 7vw;
+  }
+
   /* HERO SECTION  */
   .hero-section {
     display: block;
@@ -63,8 +107,11 @@
     justify-content: center;
     align-items: center;
   }
-  .about p {
+  .about .brief {
     font-size: 4vw;
+    text-align: center;
+    width: 90%;
+    margin: auto;
   }
   .about .skills-box {
     width: 70%;
@@ -94,12 +141,11 @@
   .project-box h1 a i {
     font-size: 6vw;
   }
-  .footer h2{
+  .footer h2 {
     width: 60%;
     font-size: 7.5vw;
   }
   .footer .info {
-
     width: 70%;
     font-size: 3vw;
   }

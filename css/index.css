@@ -55,6 +55,9 @@
 .menu {
   display: none;
 }
+#sidenav{
+  display: none;
+}
 /* HERO SECTION  */
 .hero-section {
   display: flex;
@@ -173,7 +176,7 @@
   /* width: 50%;
   float: right; */
 }
-.about p {
+.about .brief {
   font-size: 1.2vw;
 }
 .skills-box {
