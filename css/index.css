@@ -52,7 +52,9 @@
 .navbar ul li a:hover {
   color: #00d4ff;
 }
-
+.menu {
+  display: none;
+}
 /* HERO SECTION  */
 .hero-section {
   display: flex;
@@ -157,33 +159,37 @@
 }
 .right-left-about {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.left-about {
+/* .left-about {
   width: 40%;
   float: left;
-}
+} */
 
-.right-about {
+.about {
   margin-top: 2vw;
-  width: 50%;
-  float: right;
+  /* width: 50%;
+  float: right; */
 }
-.right-about p {
+.about p {
   font-size: 1.2vw;
 }
 .skills-box {
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
 }
-.right-about .skills-box {
+.about .skills-box {
   border: 2px solid #463d3d;
-  width: 50%;
+  width: 30%;
+  height: 15vw;
   margin-top: 5vw;
   box-shadow: 0vw 0vw 1vw 0vw #00d4ff;
   transition: all 0.8s;
 }
-.right-about .skills-box:hover {
+.about .skills-box:hover {
   box-shadow: 1vw 0vw 2vw 0vw #ff300c;
 }
 .box {

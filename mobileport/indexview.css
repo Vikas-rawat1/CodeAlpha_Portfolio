@@ -1,0 +1,124 @@
+@media (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+  /* HERO SECTION  */
+  .hero-section {
+    display: block;
+  }
+  .left-section {
+    display: block;
+    width: 95%;
+  }
+  .left-section h1 {
+    text-align: center;
+    font-size: 4vw;
+  }
+  .left-section h6 {
+    font-size: 5vw;
+    text-align: center;
+  }
+  .left-section p {
+    display: block;
+    line-height: 7vw;
+    margin-top: 2vw;
+    text-align: center;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn1 {
+    width: 20%;
+    height: 5vw;
+  }
+  .btn1:hover {
+    box-shadow: 20vw 0 0 0 #000 inset;
+  }
+
+  .btn2 {
+    width: 20%;
+    height: 5vw;
+  }
+  .btn2:hover {
+    box-shadow: 20vw 0 0 0 #00d4ff inset;
+  }
+  .connection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-left-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about p {
+    font-size: 4vw;
+  }
+  .about .skills-box {
+    width: 70%;
+    height: 40vw;
+  }
+
+  /* PROJECTS  */
+  .project-container {
+    margin-top: 15vw;
+    display: block;
+  }
+  .left-right-project {
+    display: block;
+  }
+  .left-project {
+    width: 100%;
+  }
+  .right-project {
+    width: 100%;
+  }
+  .project-box {
+    font-size: 4.5vw;
+    height: 35vw;
+    margin: 5vw auto;
+    box-shadow: 0vw 0vw 1vw 0vw #00d4ff;
+  }
+  .project-box h1 a i {
+    font-size: 6vw;
+  }
+  .footer h2{
+    width: 60%;
+    font-size: 7.5vw;
+  }
+  .footer .info {
+
+    width: 70%;
+    font-size: 3vw;
+  }
+  .footer .mail {
+    width: 70%;
+    font-size: 4vw;
+  }
+  .btn {
+    width: 20%;
+    height: 9vw;
+  }
+  .btn:hover {
+    box-shadow: 20vw 0 0 0 #00d4ff inset;
+    color: #000;
+  }
+  .copyright {
+    margin-top: 5vw;
+  }
+  .up img {
+    cursor: not-allowed;
+  }
+}
